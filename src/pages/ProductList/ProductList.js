@@ -1,6 +1,6 @@
 import { ArrowDownward, ArrowDownwardOutlined } from "@mui/icons-material";
 import styled from "styled-components";
-import { Categories, Product, Products } from "../../components";
+import { Categories, Navbar, Product, Products } from "../../components";
 import Footer from "../../components/Footer/Footer";
 import NewsLetter from "../../components/Newsletter/NewsLetter";
 import { products } from "../../data";
@@ -66,6 +66,7 @@ const Option = styled.option``;
 const ProductList = () => {
   return (
     <Container>
+      <Navbar />
       <Header>
         <Left>
           <Title>Dresses</Title>
@@ -103,10 +104,7 @@ const ProductList = () => {
           </Select>
         </Right>
       </Header>
-      {/* <Main> */}
       <Products />
-      {/* </Main> */}
-
       <NewsLetter />
       <Footer />
     </Container>

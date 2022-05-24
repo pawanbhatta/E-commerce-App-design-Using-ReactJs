@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
@@ -113,7 +114,9 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Let's Buy.</Logo>
+          <Link to="/">
+            <Logo>Let's Buy.</Logo>
+          </Link>
         </Center>
         <Right>
           <ButtonContainer>

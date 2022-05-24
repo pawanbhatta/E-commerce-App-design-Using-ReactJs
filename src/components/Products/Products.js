@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { products } from "../../data";
 import Product from "./Product";
@@ -13,7 +14,9 @@ const Products = () => {
   return (
     <Container>
       {products.map((product) => (
-        <Product key={product.id} product={product} />
+        <Link key={product.id} to="/products/id">
+          <Product key={product.id} product={product} />
+        </Link>
       ))}
     </Container>
   );

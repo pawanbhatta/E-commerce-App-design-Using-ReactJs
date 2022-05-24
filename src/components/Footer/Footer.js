@@ -14,7 +14,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fdf6f6;
+  background-color: #faf1f1;
 `;
 
 const Left = styled.div`

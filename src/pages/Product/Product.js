@@ -1,4 +1,3 @@
-import { CurrencyRupeeRounded } from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";
 import { Navbar } from "../../components";
@@ -7,7 +6,7 @@ import NewsLetter from "../../components/Newsletter/NewsLetter";
 
 const Container = styled.div``;
 const Main = styled.div`
-  height: 90vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,6 +114,10 @@ const CartButton = styled.button`
   border: 1px solid lightblue;
   cursor: pointer;
   font-size: 20px;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: whitesmoke;
+  }
 `;
 
 const Product = () => {
