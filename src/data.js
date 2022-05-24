@@ -15,14 +15,16 @@ export const slideItems = [
   },
   {
     id: 3,
-    img: "https://t3.ftcdn.net/jpg/03/05/77/64/360_F_305776453_t7SUl48g63zLsyODxd60aj6EcWR9avVK.jpg",
+    img: "https://t4.ftcdn.net/jpg/02/89/74/29/360_F_289742991_fhOQyjrQzn8S5UY8k51FvJqpN8BHi0QD.jpg",
+
     title: "WINTER SALE",
     desc: "GRAB THE OPPORTUNITY AND GET IT AT 25% OFF.",
     bg: "f3faff",
   },
   {
     id: 4,
-    img: "https://t4.ftcdn.net/jpg/02/89/74/29/360_F_289742991_fhOQyjrQzn8S5UY8k51FvJqpN8BHi0QD.jpg",
+    img: "https://t3.ftcdn.net/jpg/03/05/77/64/360_F_305776453_t7SUl48g63zLsyODxd60aj6EcWR9avVK.jpg",
+
     title: "SUMMER SALE",
     desc: "GRAB THE OPPORTUNITY AND GET IT AT 25% OFF.",
     bg: "f2fafa",

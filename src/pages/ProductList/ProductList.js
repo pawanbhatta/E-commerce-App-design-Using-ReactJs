@@ -88,7 +88,6 @@ const ProductList = () => {
               </Option>
               <Option>XL</Option>
               <Option>L</Option>
-              <Option>Red</Option>
               <Option>M</Option>
               <Option>S</Option>
               <Option>XS</Option>

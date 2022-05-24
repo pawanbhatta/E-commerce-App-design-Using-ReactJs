@@ -13,9 +13,7 @@ const Category = () => {
   return (
     <Container>
         {categories.map(c=>(
-          <Link key={c.id} to="/products">
             <CategoryItem key={c.id} category={c}/>
-          </Link>
         ))}
     </Container>
   )
