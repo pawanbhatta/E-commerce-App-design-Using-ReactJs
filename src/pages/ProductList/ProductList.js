@@ -37,6 +37,7 @@ const FilterBox = styled.div`
 
 const Heading = styled.h3`
   font-weight: 500;
+  margin-right: 20px;
 `;
 
 const Dropdown = styled.span`
@@ -56,10 +57,11 @@ const Right = styled.span`
   align-items: center;
 `;
 
-const Main = styled.div`
-  height: 100vh;
-  width: 100%;
+const Select = styled.select`
+  padding: 10px;
+  margin-right: 20px;
 `;
+const Option = styled.option``;
 
 const ProductList = () => {
   return (
@@ -69,24 +71,41 @@ const ProductList = () => {
           <Title>Dresses</Title>
           <FilterBox>
             <Heading>Filter Products : </Heading>
-            <Dropdown>
-              Yellow <ArrowDownwardOutlined />
-            </Dropdown>
-            <Dropdown>
-              M <ArrowDownward />
-            </Dropdown>
+            <Select>
+              <Option disabled selected>
+                Color
+              </Option>
+              <Option>Black</Option>
+              <Option>Coral</Option>
+              <Option>Red</Option>
+              <Option>White</Option>
+              <Option>Lime</Option>
+            </Select>
+            <Select>
+              <Option disabled selected>
+                Size
+              </Option>
+              <Option>XL</Option>
+              <Option>L</Option>
+              <Option>Red</Option>
+              <Option>M</Option>
+              <Option>S</Option>
+              <Option>XS</Option>
+            </Select>
           </FilterBox>
         </Left>
         <Right>
           <Heading>Sort Products:</Heading>
-          <Dropdown>
-            Price (asc) <ArrowDownwardOutlined />
-          </Dropdown>
+          <Select>
+            <Option selected>Newest</Option>
+            <Option>Price (asc)</Option>
+            <Option>Price (desc)</Option>
+          </Select>
         </Right>
       </Header>
-      <Main>
-        <Products />
-      </Main>
+      {/* <Main> */}
+      <Products />
+      {/* </Main> */}
 
       <NewsLetter />
       <Footer />
