@@ -1,11 +1,15 @@
 import React from 'react'
-import { Navbar, Slider } from '../../components'
+import { Categories, Navbar, Products, Slider } from '../../components'
+import NewsLetter from '../../components/Newsletter/NewsLetter'
 
 const Home = () => {
   return (
     <div>
         <Navbar/>
         <Slider/>
+        <Categories/>
+        <Products/>
+        <NewsLetter/>
     </div>
   )
 }
