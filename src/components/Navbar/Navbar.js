@@ -75,10 +75,12 @@ const AuthButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  // cursor: pointer;
 `;
 
 const CartButton = styled.div`
   position: relative;
+  cursor: pointer;
 `;
 
 const ItemNumber = styled.span`
